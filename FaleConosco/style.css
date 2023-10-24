@@ -1,11 +1,11 @@
-/* Definindo as cores com classes */
+
 .color1 { background-color: #f3ddb6; }
 .color2 { background-color: #d6bf93; }
 .color3 { color: #532728; }
 .color4 { color: #ced0ba; }
 .color5 { background-color: #f2efce; }
 
-/* Estilos para o corpo da página */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2efce;
@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-/* Estilos para o cabeçalho */
+
 header {
     background-color: #f3ddb6;
     display: flex;
@@ -40,13 +40,11 @@ nav a {
     font-size: 18px;
 }
 
-/* Estilos para o conteúdo principal */
 main {
     padding: 20px;
     min-height: 800px;
 }
 
-/* Estilos para o rodapé */
 footer {
     text-align: center;
     padding: 10px;
@@ -54,7 +52,7 @@ footer {
     color: #532728;
 }
 
-/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
