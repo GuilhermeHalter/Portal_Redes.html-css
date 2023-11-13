@@ -116,3 +116,16 @@ body {
     }
   }
   
+  .contato-a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ebebeb;
+    transition: all 1s ease;
+    font-size: 20px; 
+  }
+
+  .contato-a :hover {
+    color: #4e4e4e;
+    position: relative;
+    font-size: 20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
