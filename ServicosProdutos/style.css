@@ -103,21 +103,25 @@ img {
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
-    text-align: center;
+      flex-direction: column;
+      text-align: center;
   }
 
   nav ul {
-    flex-direction: column;
-    gap: 10px;
+      flex-direction: column;
+      gap: 10px;
   }
 
   nav a {
-    font-size: 16px;
+      font-size: 16px;
   }
 
   main {
-    min-height: auto;
+      min-height: auto;
+  }
+
+  .desc-h4 {
+      width: 100%;
   }
 }
 
@@ -129,21 +133,17 @@ img {
 }
 
 .card img {
-  width: 500px;
-  height: 350px;
+  width: 100%;
+  height: auto;
   border-bottom: 1px solid #ddd;
-}
-
-.card .content {
-  padding: 20px;
-}
-
-p {
-  text-align: justify;
 }
 
 .coluna {
   display: flex;
   flex-wrap: wrap;
   gap: 50px;
+}
+
+p {
+  text-align: justify;
 }
